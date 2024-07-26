@@ -5,7 +5,7 @@ import * as bcrypt from 'bcrypt';
 import { LoginUserDto, RegisterUserDto } from './dto';
 import { JwtService } from '@nestjs/jwt';
 import { JwtPayload } from './interfaces/jwt-payload.interface';
-import { envs } from 'src/config';
+import { envs } from '../config';
 
 @Injectable()
 export class AuthService extends PrismaClient implements OnModuleInit {
