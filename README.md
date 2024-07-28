@@ -9,7 +9,7 @@
 
     ```sh
     git clone https://github.com/Nest-Microservices-Application/auth-ms
-    cd products-ms
+    cd auth-ms
     ```
 
 2. **Install dependencies:**
